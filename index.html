@@ -9,7 +9,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
 <style>
 
 ::selection {
@@ -56,9 +55,16 @@
 
   .indent {
   margin-left: 10px; /* Adjust the indentation as needed */
-}
 
   
+}
+
+@media only screen and (max-width: 600px) {
+    .heading, .subheading, .body {
+      width: auto; /* Take up the available space */
+      margin-left: 5%; /* Adjust side margins to not touch the edge of the screen */
+      margin-right: 5%;
+      font-size: 3.5vw; /* Use viewport width units for font size */
 
 </style>
 
@@ -111,35 +117,4 @@
 
 
 
-<!--
 
-  This is the old code I was using for links: 
-
-
-  <a class="body" href="https://teenfully.app/" target="_blank"> 
-  Teenfully
-</a>
-
-<a class="body" href="https://www.instagram.com/iandalmas/" target="_blank"> 
-  Instagram 
-</a>
-
-<a href="https://www.linkedin.com/in/ian-dalmas-654a4b218" target="_blank"> 
-  LinkedIn
-</a>
-
-
-
-  Ok so the things I want
-  
-  Types of text: 
-  Heading
-  Subheading
-  Body
-  
-  LinkedIn
-  X
-  Blog
-  Github
-
--->
