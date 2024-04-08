@@ -1,62 +1,62 @@
 ::selection {
-    color: white; /* Text color for selection */
-    background: black; /* Background color for selection */
+  color: white; /* Text color for selection */
+  background: black; /* Background color for selection */
 }
 
-  .heading{
-    margin-top: 50px;
-    margin-bottom: 0px;
-    font-size: 40px;
-    width: 30%; /* Adjust the width as needed */
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    text-align: left; /* Keeps the text left-aligned */
-    font-family: "Lato", serif;
-  }
+.heading{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  width: 30%; /* Adjust the width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-align: left; /* Keeps the text left-aligned */
+  font-family: "Lato", serif;
+}
 
 
-  .subheading{
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-size: 20px;
-    width: 30%; /* Adjust the width as needed */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left; /* Keeps the text left-aligned */
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-  }
+.subheading{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  width: 30%; /* Adjust the width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; /* Keeps the text left-aligned */
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
 
-  .body{
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    width: 30%; /* Adjust the width as needed */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left; /* Keeps the text left-aligned */
-    font-family: "Open Sans", sans-serif;
-    line-height: 30px;
-  }
+.body{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  width: 30%; /* Adjust the width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; /* Keeps the text left-aligned */
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+}
 
-  .indent {
-  margin-left: 10px; /* Adjust the indentation as needed */
+.indent {
+margin-left: 10px; /* Adjust the indentation as needed */
 
-  
+
 }
 
 @media only screen and (max-width: 600px) {
-  .heading {
-    font-size: 6vw; /* Increase the font size on smaller screens */
+.heading {
+  font-size: 6vw; /* Increase the font size on smaller screens */
+  width: auto; /* Take up the available space */
+  margin-left: 5%; /* Adjust side margins to not touch the edge of the screen */
+  margin-right: 5%;
+}
+   .subheading, .body {
     width: auto; /* Take up the available space */
     margin-left: 5%; /* Adjust side margins to not touch the edge of the screen */
     margin-right: 5%;
+    font-size: 3.5vw; /* Use viewport width units for font size */
   }
-     .subheading, .body {
-      width: auto; /* Take up the available space */
-      margin-left: 5%; /* Adjust side margins to not touch the edge of the screen */
-      margin-right: 5%;
-      font-size: 3.5vw; /* Use viewport width units for font size */
-    }
-  }
+}
