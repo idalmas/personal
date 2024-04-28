@@ -1,62 +1,179 @@
-::selection {
-  color: white; /* Text color for selection */
-  background: black; /* Background color for selection */
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ffffff; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    
+  }
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
+  ::selection {
+    color: white; /* Text color for selection */
+    background: black; /* Background color for selection */
+  }
+ 
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 
-.heading{
-  margin-top: 50px;
-  margin-bottom: 0px;
-  font-size: 40px;
-  width: 30%; /* Adjust the width as needed */
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: bold;
-  text-align: left; /* Keeps the text left-aligned */
-  font-family: "Lato", serif;
-}
+  /* this is the old stuff which i copied over */
 
-
-.subheading{
-  margin-top: 20px;
-  margin-bottom: 0px;
-  font-size: 20px;
-  width: 30%; /* Adjust the width as needed */
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left; /* Keeps the text left-aligned */
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}
-
-.body{
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-size: 15px;
-  width: 30%; /* Adjust the width as needed */
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left; /* Keeps the text left-aligned */
-  font-family: "Open Sans", sans-serif;
-  line-height: 30px;
-}
-
-.indent {
-margin-left: 10px; /* Adjust the indentation as needed */
-
-
-}
-
-@media only screen and (max-width: 600px) {
-.heading {
-  font-size: 6vw; /* Increase the font size on smaller screens */
-  width: auto; /* Take up the available space */
-  margin-left: 5%; /* Adjust side margins to not touch the edge of the screen */
-  margin-right: 5%;
-}
-   .subheading, .body {
+  ::selection {
+    color: white; /* Text color for selection */
+    background: black; /* Background color for selection */
+  }
+  
+  .heading{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: left; /* Keeps the text left-aligned */
+    font-family: "Lato", serif;
+  }
+  
+  
+  .subheading{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Keeps the text left-aligned */
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  
+  .body{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Keeps the text left-aligned */
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+  }
+  
+  .indent {
+  margin-left: 10px; /* Adjust the indentation as needed */
+  
+  
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 6vw; /* Increase the font size on smaller screens */
     width: auto; /* Take up the available space */
     margin-left: 5%; /* Adjust side margins to not touch the edge of the screen */
     margin-right: 5%;
-    font-size: 3.5vw; /* Use viewport width units for font size */
   }
+     .subheading, .body {
+      width: auto; /* Take up the available space */
+      margin-left: 5%; /* Adjust side margins to not touch the edge of the screen */
+      margin-right: 5%;
+      font-size: 3.5vw; /* Use viewport width units for font size */
+    }
+  }
+  ::selection {
+    color: white; /* Text color for selection */
+    background: black; /* Background color for selection */
 }
+
+  .heading{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: left; /* Keeps the text left-aligned */
+    font-family: "Lato", serif;
+  }
+
+
+  .subheading{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Keeps the text left-aligned */
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+
+  .body{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Keeps the text left-aligned */
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+  }
+
+  .indent {
+  margin-left: 10px; /* Adjust the indentation as needed */
+  }
+
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ffffff; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  
+ 
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
