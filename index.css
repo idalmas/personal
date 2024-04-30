@@ -81,7 +81,15 @@
     font-family: "Open Sans", sans-serif;
     line-height: 30px;
   }
-  
+
+  .body2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: left; 
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+  }
   .indent {
   margin-left: 10px; /* Adjust the indentation as needed */
   
