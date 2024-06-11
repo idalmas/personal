@@ -185,3 +185,10 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  .cropped-image {
+    padding-top: 20px;
+    width: 150px; /* Set the width to the desired value */
+    height: 150px; /* Set the height to the desired value */
+    object-fit: cover; /* This will crop the image to fit the container */
+    object-position: center;
+}
