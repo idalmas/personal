@@ -187,8 +187,8 @@
   }
   .cropped-image {
     padding-top: 20px;
-    width: 150px; /* Set the width to the desired value */
-    height: 150px; /* Set the height to the desired value */
+    width: 50px; /* Set the width to the desired value */
+    height: 50px; /* Set the height to the desired value */
     object-fit: cover; /* This will crop the image to fit the container */
     object-position: center;
 }
