@@ -54,7 +54,8 @@
     margin-right: auto;
     font-weight: bold;
     text-align: left; /* Keeps the text left-aligned */
-    font-family: "Lato", serif;
+    font-family: "Helvetica", sans-serif;
+    
   }
   
   
@@ -66,7 +67,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left; /* Keeps the text left-aligned */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: bold;
   }
   
@@ -78,7 +79,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left; /* Keeps the text left-aligned */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Helvetica", sans-serif;
     line-height: 30px;
   }
 
@@ -87,7 +88,7 @@
     margin-bottom: 10px;
     font-size: 15px;
     text-align: left; 
-    font-family: "Open Sans", sans-serif;
+    font-family: "Helvetica", sans-serif;
     line-height: 30px;
   }
   .indent {
@@ -124,7 +125,8 @@
     margin-right: auto;
     font-weight: bold;
     text-align: left; /* Keeps the text left-aligned */
-    font-family: "Lato", serif;
+    font-family: "Helvetica", sans-serif;
+
   }
 
 
@@ -136,7 +138,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left; /* Keeps the text left-aligned */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: bold;
   }
 
@@ -148,7 +150,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left; /* Keeps the text left-aligned */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Helvetica", sans-serif;
     line-height: 30px;
   }
 
@@ -175,7 +177,7 @@
     font-size: 17px;
     color: #000000;
     display: block;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Helvetica", sans-serif;
   }
 
   
