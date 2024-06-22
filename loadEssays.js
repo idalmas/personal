@@ -8,7 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         essayElement.classList.add('essay');
         
         const titleElement = document.createElement('h2');
-        titleElement.textContent = essay.title;
+        const titleLink = document.createElement('a');
+        titleLink.href = `Essays/${essay.slug}.html`; // Using the slug to create the link
+        titleLink.textContent = essay.title;
+        titleElement.appendChild(titleLink);
         essayElement.appendChild(titleElement);
         
         const dateElement = document.createElement('p');
