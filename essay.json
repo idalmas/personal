@@ -3,12 +3,18 @@
     "title": "In education, the medium is the message",
     "slug": "education-medium-message",
     "date": "June 21, 2024",
-    "body": "<p>This is the <strong>body text</strong> of the first essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
+    "body": "<p >This is the <strong>body text</strong> of the first essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
   },
   {
     "title": "Tiktok and Political Content",
     "slug": "tiktok-political-content",
     "date": "2023-10-02",
     "body": "<p>This is the <strong>body text</strong> of the second essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
+  },
+  {
+    "title": "Test",
+    "slug": "test",
+    "date": "June 22, 2024",
+    "body": "<p>this is a test article</p>"
   }
 ]
