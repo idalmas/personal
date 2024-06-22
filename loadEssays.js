@@ -16,11 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
         dateElement.textContent = essay.date;
         essayElement.appendChild(dateElement);
         
-        const bodyElement = document.createElement('p');
-        bodyElement.classList.add('body');
-        bodyElement.innerHTML = essay.body;
-        essayElement.appendChild(bodyElement);
-        
         essaysContainer.appendChild(essayElement);
       });
     })
