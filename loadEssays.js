@@ -5,13 +5,24 @@ document.addEventListener('DOMContentLoaded', function() {
       const essaysContainer = document.querySelector('.essays');
       data.forEach(essay => {
         const essayElement = document.createElement('div');
-        essayElement.innerHTML = `
-          <a href="essay.html?slug=${essay.slug}" style="color: black; text-decoration: none;">
-            ${essay.title}
-          </a>
-          <br>
-        `;
+        essayElement.classList.add('essay');
+        
+        const titleElement = document.createElement('h2');
+        titleElement.textContent = essay.title;
+        essayElement.appendChild(titleElement);
+        
+        const dateElement = document.createElement('p');
+        dateElement.classList.add('date');
+        dateElement.textContent = essay.date;
+        essayElement.appendChild(dateElement);
+        
+        const bodyElement = document.createElement('p');
+        bodyElement.classList.add('body');
+        bodyElement.innerHTML = essay.body;
+        essayElement.appendChild(bodyElement);
+        
         essaysContainer.appendChild(essayElement);
       });
     })
-    .catch(error => co
+    .catch(error => console.error('Error fetching essays:', error));
+});
