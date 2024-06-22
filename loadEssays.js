@@ -14,5 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
         essaysContainer.appendChild(essayElement);
       });
     })
-    .catch(error => console.error('Error fetching essays:', error));
-});
+    .catch(error => co
