@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
       data.forEach(essay => {
         const essayElement = document.createElement('div');
         essayElement.innerHTML = `
-          <a href="${essay.url}" style="color: black; text-decoration: none;">
+          <a href="essay.html?slug=${essay.slug}" style="color: black; text-decoration: none;">
             ${essay.title}
           </a>
-          <div>${essay.body}</div>
           <br>
         `;
         essaysContainer.appendChild(essayElement);
       });
-    });
+    })
+    .catch(error => console.error('Error fetching essays:', error));
 });

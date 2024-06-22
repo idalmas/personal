@@ -1,14 +1,14 @@
 [
-    {
-      "title": "In education, the medium is the message",
-      "url": "Essays/education.html",
-      "date": "2023-10-01",
-      "body": "<p>This is the <strong>body text</strong> of the first essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
-    },
-    {
-      "title": "Tiktok and Political Content",
-      "url": "Essays/tiktok.html",
-      "date": "2023-10-02",
-      "body": "<p>This is the <strong>body text</strong> of the second essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
-    }
-  ]
+  {
+    "title": "In education, the medium is the message",
+    "slug": "education-medium-message",
+    "date": "2023-10-01",
+    "body": "<p>This is the <strong>body text</strong> of the first essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
+  },
+  {
+    "title": "Tiktok and Political Content",
+    "slug": "tiktok-political-content",
+    "date": "2023-10-02",
+    "body": "<p>This is the <strong>body text</strong> of the second essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
+  }
+]
