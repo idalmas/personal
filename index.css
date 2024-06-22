@@ -90,6 +90,7 @@
     text-align: left; 
     font-family: "Helvetica", sans-serif;
     line-height: 30px;
+    padding-top: 20px;
   }
   .indent {
   margin-left: 10px; /* Adjust the indentation as needed */
