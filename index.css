@@ -191,8 +191,4 @@
     .sidenav a {font-size: 18px;}
   }
   .cropped-image {
-    padding-top: 20px;
-    width: 130px; /* Set the width to the desired value */
-    height: 130px; /* Set the height to the desired value */
-    object-fit: cover; /* This will crop the image to fit the container */
-    obj
+    padding-top: 2
