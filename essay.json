@@ -9,7 +9,7 @@
     "title": "Tiktok and Political Content",
     "slug": "tiktok-political-content",
     "date": "2023-10-02",
-    "body": "<p style='font-family:Helvetica'> This is a paragraph.</p>This is the <strong>body text</strong> of the second essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
+    "body": "<p style='font-family:Helvetica'> <p>This is a paragraph.</p>This is the <strong>body text</strong> of the second essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p></p>"
   },
   {
     "title": "Last Times",
