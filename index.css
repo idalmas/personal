@@ -195,4 +195,12 @@
     object-fit: cover; /* This will crop the image to fit the container */
   }
   
- 
+  /* the styling rules for the essay title and dates */
+  .essay-content h1 {
+    font-family: "Helvetica", sans-serif;
+  }
+  
+  /* Ensure the date uses Helvetica */
+  .essay-content .date {
+    font-family: "Helvetica", sans-serif;
+  }
