@@ -215,7 +215,7 @@
   /* Style for essay titles on essays.html */
 .essays h2 {
   font-family: "Helvetica", sans-serif;
-  
+  color: black;
 }
 
 /* Style for essay dates on essays.html */
