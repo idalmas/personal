@@ -12,9 +12,9 @@
     "body": "<p>This is the <strong>body text</strong> of the second essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
   },
   {
-    "title": "Test",
-    "slug": "test",
-    "date": "June 22, 2024",
+    "title": "Last Times",
+    "slug": "last-times",
+    "date": "June 2, 2024",
     "body": "<p>this is a test article</p>"
   }
 ]
