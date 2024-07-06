@@ -12,22 +12,9 @@
     "body": "<p>This is the <strong>body text</strong> of the second essay. It can include <em>HTML</em> tags for <u>formatting</u>.</p>"
   },
   {
-    "title": "Last Times",
-    "slug": "last-times",
-    "date": "June 2, 2024",
-    "body": "<p><em>This was a speech I wrote for my <a href=\"https://youtu.be/4_J4nDngtQI\">high school graduation</a>.</em></p>
-    <p>A year ago, I was sitting on this stage, wearing the classic &ldquo;All Formal, All Black&rdquo; orchestra uniform. I remember thinking that was the last time I&apos;d play Pomp and Circumstance on this stage. Of course, that was the first, of many <em>last times</em> we&rsquo;ve experienced this year.</p>
-    <p>The last football game. The last spring musical. The last glow dance and homecoming and soiree and prom. The last state championship lacrosse game, soccer match, or math meet. The last choir tour, or volleyball practice or philosophy club meeting. That one class you loved. And that class you wondered every day why you signed up for it.</p>
-    <p>The last time the Wheaton Academy Class of 2024 stands in one room? That&rsquo;s today.</p>
-    <p>Parents! I know there have been a lot of last times you didn&rsquo;t get the chance to celebrate. The last time you had to change our diapers. The last time we burst out crying at 3 am. The last time you picked us up, tucked us into bed, and read us a story. Because we&rsquo;ll do everything this side of heaven a finite number of times.</p>
-    <p>I&rsquo;ve found it&rsquo;s so easy to get caught up in the web and screens of life and miss important <em>last times</em>. But we do get to celebrate this last time together.</p>
-    <p>Our last moments as Wheaton Academy students. Wheaton Academy, a place where we got to lower our phones, and build relationships with each other, and with God. A place where seeds were tossed into fertile soil. And thanks to some mighty gardeners, the saplings grew, rooted in Christ&rsquo;s living water. And now, we&rsquo;re ready for some <em>first times</em>.</p>
-    <p>Because, of course, we&rsquo;re still growing. Next year, we&rsquo;ll have new soil and new gardeners. And thanks to our outstanding (and honestly overqualified) teachers and coaches we&rsquo;re beginning to piece together what God&rsquo;s design for us might be.</p>
-    <p>I think we all know this is a class that&rsquo;s going to work with the full knowledge that it&rsquo;s for Someone greater. We&rsquo;ll teach history, cut and style hair, frame houses, and design rockets that take us to Mars. We&rsquo;ll paint masterpieces, conduct concerts, and scoop Fresh-Frozen Custard. We&rsquo;ll heal the hurting: physically, mentally, socially, spiritually. We&rsquo;ll change diapers and coach teams. We&rsquo;ll fight for the marginalized, broken, and lost from Washington to Wheaton. We&rsquo;ll evangelize and lead worship. And when we fall, we&rsquo;ll pick each other up.</p>
-    <p>Our time at Wheaton Academy points us to the True Gardner. The Father who made the Garden. The Son who prayed in a garden, and went to the Cross. And to the Spirit that empowers the growth of our faith.</p>
-    <p>Because our faith is a cherished hope in a <em>last time</em>.</p>
-    <p>The last time we struggle with sin and death. The last time we cry and suffer. When every knee bows and every tongue confesses. When we go from a Garden to a City like jasper, clear as crystal, made of solid gold. When heaven meets earth.</p>
-    <p>Then the full scope of God&rsquo;s harvest will be made clear. When the Class of 2024 becomes the men and women that God designed us to be. So let&rsquo;s start this new beginning with the end in mind. And boldly step into a million more first times.</p>
-    <p><em>Thank you to my parents, Brad Thornton, and Luke Regan for reading drafts of this.</em></p>"
+    "title": "Test",
+    "slug": "test",
+    "date": "June 22, 2024",
+    "body": "<p>this is a test article</p>"
   }
 ]
