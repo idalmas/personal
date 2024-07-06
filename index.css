@@ -199,8 +199,16 @@
   .essay-content h1 {
     font-family: "Helvetica", sans-serif;
   }
-  
-  /* Ensure the date uses Helvetica */
   .essay-content .date {
     font-family: "Helvetica", sans-serif;
   }
+
+  /* Style for essay titles on essays.html */
+.essays h2 {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* Style for essay dates on essays.html */
+.essays .date {
+  font-family: "Helvetica", sans-serif;
+}
