@@ -195,12 +195,19 @@
     object-fit: cover; /* This will crop the image to fit the container */
   }
   
-  /* the styling rules for the essay title and dates */
+  /* the styling rules for essay.html go here */
   .essay-content h1 {
     font-family: "Helvetica", sans-serif;
   }
   .essay-content .date {
     font-family: "Helvetica", sans-serif;
+  }
+
+  .essay-content > div:last-child {
+    font-family: "Helvetica", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: red;
   }
 
   /* Style for essay titles on essays.html */
@@ -214,3 +221,4 @@
   font-family: "Helvetica", sans-serif;
   color: black;
 }
+
