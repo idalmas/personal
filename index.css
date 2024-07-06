@@ -207,7 +207,9 @@
     font-family: "Helvetica", sans-serif;
     font-size: 15px;
     line-height: 1.6;
-    color: red;
+    max-width: 600px;
+     margin: 0 auto;
+
   }
 
   /* Style for essay titles on essays.html */
