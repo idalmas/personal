@@ -195,6 +195,11 @@
     object-fit: cover; /* This will crop the image to fit the container */
   }
   
+  .body2 img.cropped-image {
+    margin-top: 0;
+    margin-bottom: 10px;  /* Add some space below the image */
+}
+
   /* the styling rules for essay.html go here */
   .essay-content h1 {
     font-family: "Helvetica", sans-serif;
