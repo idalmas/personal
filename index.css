@@ -86,7 +86,7 @@
   }
 
   .body2{
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 10px;
     font-size: 15px;
     text-align: left; 
@@ -189,7 +189,7 @@
     .sidenav a {font-size: 18px;}
   }
   .cropped-image {
-    padding-top: 1px;
+    padding-top: 0px;
     width: 130px; /* Set the width to the desired value */
     height: 130px; /* Set the height to the desired value */
     object-fit: cover; /* This will crop the image to fit the container */
