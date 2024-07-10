@@ -91,9 +91,14 @@
     font-size: 15px;
     text-align: left; 
     font-family: "Helvetica", sans-serif;
-    line-height: 30px;
-    padding-top: 20px;
+    line-height: 1.6;
+    padding-top: 10px;
+    max-width: 500px;
+    text-align: left;
   }
+
+
+
   .indent {
   margin-left: 10px; /* Adjust the indentation as needed */
   
@@ -207,7 +212,7 @@
     font-family: "Helvetica", sans-serif;
     font-size: 15px;
     line-height: 1.6;
-    max-width: 400px;
+    max-width: 500px;
     margin-left: 0;
     text-align: left;
 
