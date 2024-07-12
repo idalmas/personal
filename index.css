@@ -223,6 +223,10 @@
   font-family: "Helvetica", sans-serif;
   color: black !important;
 }
+a {
+  color: black;
+}
+
 
 /* Style for essay dates on essays.html */
 .essays .date {
