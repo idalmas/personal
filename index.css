@@ -222,6 +222,7 @@
 .essays h2 {
   font-family: "Helvetica", sans-serif;
   color: black !important;
+  font-size: 40;
 }
 a {
   color: black;
