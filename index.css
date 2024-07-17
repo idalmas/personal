@@ -203,6 +203,7 @@
   /* the styling rules for essay.html go here */
   .essay-content h1 {
     font-family: "Helvetica", sans-serif;
+    max-width: 450px;
   }
   .essay-content .date {
     font-family: "Helvetica", sans-serif;
@@ -223,6 +224,7 @@
   font-family: "Helvetica", sans-serif;
   color: black !important;
   font-size: 40;
+  max-width: 450px;
 }
 a {
   color: black;
