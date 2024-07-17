@@ -204,6 +204,7 @@
   .essay-content h1 {
     font-family: "Helvetica", sans-serif;
     max-width: 450px;
+    font-size: 40;
   }
   .essay-content .date {
     font-family: "Helvetica", sans-serif;
