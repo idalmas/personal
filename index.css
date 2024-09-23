@@ -238,3 +238,38 @@ a {
   color: black;
 }
 
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.project p {
+    margin-bottom: 15px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #333;
+}
+
